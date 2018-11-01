@@ -1,0 +1,51 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /cloudfilemanager
+
+spring:
+  datasource:
+    #配置数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/cloudfilemanager?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    #连接池配置
+    druid:
+      # 初始化大小，最小，最大
+      initial-size: 5
+      min-idle: 5
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      time-between-eviction-runs-millis: 6000
+      # 配置获取连接等待超时的时间
+      max-wait: 6000
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      min-evictable-idle-time-millis: 30000
+      #检测连接是否有效的sql
+      validation-query: SELECT 'x'
+      validation-query-timeout: 6000
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      max-active: 25
+mybatis:
+  #entity扫描的包名
+  type-aliases-package: "com.netsense.cloudfilemanager.model"
+  #Mapper.xml所在的位置
+  mapper-locations: "classpath:mapper/*.xml"
+  #开启MyBatis的二级缓存
+  configuration:
+    cache-enabled: true
+cupSize: B
+
+#配置分页插件pagehelper
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+logging:
+  level:
+    com.netsense.cloudfilemanager.mapper: debug
