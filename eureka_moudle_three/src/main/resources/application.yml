@@ -2,10 +2,10 @@ spring:
   application:
     name: spring-cloud-eureka
 server:
-  port: 8001
+  port: 8003
 eureka:
   client:
     service-url:
-      defaultZone: http://peer2:8002/eureka/,http://peer3:8003/eureka/
+      defaultZone: http://peer1:8001/eureka/,http://peer2:8002/eureka/
   instance:
-    hostname: peer1
+    hostname: peer3

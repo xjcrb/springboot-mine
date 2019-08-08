@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.rui</groupId>
-    <artifactId>eureka</artifactId>
+    <artifactId>eureka_moudle_one</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka</name>
+    <name>eureka_moudle_one</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

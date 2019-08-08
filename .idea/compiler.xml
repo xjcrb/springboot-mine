@@ -15,7 +15,6 @@
       <module name="eureka_moudle_one" target="1.8" />
       <module name="eureka_moudle_three" target="1.8" />
       <module name="eureka_moudle_two" target="1.8" />
-      <module name="fsf" target="1.8" />
       <module name="springboot-mine" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -24,7 +23,6 @@
       <module name="eureka_moudle_one" options="-parameters" />
       <module name="eureka_moudle_three" options="-parameters" />
       <module name="eureka_moudle_two" options="-parameters" />
-      <module name="fsf" options="-parameters" />
     </option>
   </component>
 </project>

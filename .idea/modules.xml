@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/eureka_moudle_one/eureka.iml" filepath="$PROJECT_DIR$/eureka_moudle_one/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_moudle_one/eureka_moudle_one.iml" filepath="$PROJECT_DIR$/eureka_moudle_one/eureka_moudle_one.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_moudle_three/eureka_moudle_three.iml" filepath="$PROJECT_DIR$/eureka_moudle_three/eureka_moudle_three.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_moudle_two/eureka_moudle_two.iml" filepath="$PROJECT_DIR$/eureka_moudle_two/eureka_moudle_two.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-mine.iml" filepath="$PROJECT_DIR$/.idea/springboot-mine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mine.iml" filepath="$PROJECT_DIR$/springboot-mine.iml" />
     </modules>
   </component>
 </project>

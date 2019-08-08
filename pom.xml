@@ -16,9 +16,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>eureka_moudle_one</module>
         <module>eureka_moudle_two</module>
         <module>eureka_moudle_three</module>
+        <module>eureka_moudle_one</module>
     </modules>
 
 

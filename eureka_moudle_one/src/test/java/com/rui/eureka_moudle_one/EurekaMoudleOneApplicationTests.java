@@ -1,4 +1,4 @@
-package com.rui.eureka;
+package com.rui.eureka_moudle_one;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
